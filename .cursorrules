@@ -1,0 +1,20 @@
+# Change Agency - UI/UX & Coding Guidelines
+
+## Tech Stack
+- Next.js 14 (App Router)
+- React, TypeScript, Tailwind CSS
+- Framer Motion (para animações)
+- Lucide React (para ícones)
+
+## Design System & Vibe
+- Estilo: Minimalista, Elegante, Moderno, "SaaS Premium".
+- Tema Principal: Dark Mode.
+- Cores de destaque: Tons de Vinho/Vermelho Escuro (referência: #600018 a #30000a) e Prata/Cinza claro para textos e bordas.
+- Efeitos visuais: Uso de Glassmorphism (fundo translúcido com blur), bordas finas sutis (border-white/10), e glow effects nos botões principais.
+- Animações: Sempre usar Framer Motion para transições de entrada (fade-in, slide-up) e interações suaves de hover. O site deve parecer fluido e interativo.
+
+## Regras de Código
+- Escreva componentes funcionais modernos e modularizados.
+- Use 'use client' apenas onde for estritamente necessário (quando usar hooks do React ou Framer Motion).
+- Mantenha o código limpo, evite repetições e use classes utilitárias do Tailwind de forma organizada.
+- Comunique-se em Português (Brasil) nos comentários e textos da interface.
